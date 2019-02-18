@@ -20,8 +20,8 @@ class App extends Component {
             </div>
           </header>
           <div>
-            <Route exact path="/randomdogs/" render={() => (<Home params={this.props} />)} />
-            <Route exact path="/randomdogs/about" component={About} />
+            <Route exact path="/" render={() => (<Home params={this.props} />)} />
+            <Route exact path="/about" component={About} />
           </div>
         </div>
       </Router>
