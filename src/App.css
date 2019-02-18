@@ -17,8 +17,8 @@
 }
 
 .App-info {
-  margin: 20px;
-  width: 80%;
+  margin: 20px auto;
+  width: 200px;
 }
 
 .App-title {
@@ -32,4 +32,10 @@
 
 .App img {
   max-width: 100%;
+}
+
+button {
+    background: white;
+    border-radius: 5px;
+    margin: 5px;
 }
