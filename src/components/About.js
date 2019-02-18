@@ -1,3 +1,3 @@
 import React from 'react';
-const About = () => (<div> About </div>);
+const About = () => (<div> Be happy, baby </div>);
 export default About;
