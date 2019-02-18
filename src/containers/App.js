@@ -10,7 +10,7 @@ import '../App.css';
 class App extends Component {
   render () {
     return (
-      <Router>      
+      <Router basename={process.env.PUBLIC_URL}>      
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
